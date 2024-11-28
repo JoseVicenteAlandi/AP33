@@ -1,1 +1,4 @@
 grep -A 26 -B 1 "SEMANAS"  consumos.txt > file1.txt
+grep -A 4 "SEMANA" file1.txt | grep -v "\*" > a
+grep -A 4 "SEMANA" file1.txt | grep -v "\*" > d
+grep "sem" file1.txt > s
